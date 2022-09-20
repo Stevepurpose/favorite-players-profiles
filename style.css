@@ -1,0 +1,79 @@
+body {
+    background-color:black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#number1,#number3,#number5,#number7,#number9{
+    color:blue;
+    background-color:white;
+    font-size:30px;
+    font-style:calibri;
+    text-align:center;
+    
+    }
+h1{
+    background-color:Blue;
+    color:white;
+}
+#number2,#number6,#number10{
+    color:white;
+    background-color:blue;
+    font-size:30px;
+    font-style:Arial;
+    text-align:center ;
+}
+#number4,#number8{color:yellow;
+background-color:black;
+    font-size:30px;
+    text-align:center;
+}
+#number4,#number8{
+    background-color:blue;
+}
+a{
+    text-decoration:none ;
+    
+}
+#eleven,#thirtythree,#fiftyfive,#seventyseven,#ninetynine
+{
+    color:blue;
+}
+
+#twentytwo,#sixtysix,#oneten{
+    color:white;
+}
+
+
+#fourtyfour,#eightyeight{
+    color:yellow;
+}
+h2{
+    color:yellow;
+    text-align:center;
+}
+
+.container{
+    display:grid;
+    justify-content:center;
+}
+
+@media  screen and (max-width:600px) {
+    h1{
+        font-size: 18px;
+    }
+}
+
+
+@keyframes maza {
+    0%{background-color:black;}
+    250%{background-color: white;}
+    50%{background-color: blue;}
+    75%{background-color: yellow;}
+    100%{background-color: blue;}
+ }
+ body{
+    background-color: black;
+    animation-name: maza;
+    animation-duration: 15s;
+ }
